@@ -15,7 +15,7 @@ const BOT_CONFIG = {
     welcomeHeading: "Hello! How can I help you today?",
     welcomeSubtext: "Select a starter prompt below or type your own question to begin.",
 
-    introCards: {
+    introCards: [
         {
             icon: "🎮",
             title: "gaming",
@@ -40,7 +40,7 @@ const BOT_CONFIG = {
             description: "ponsel kelas premium dengan performa dan fitur unggulan",
             prompt: "saya mencari ponsel flagship dengan performa terbaik, kamera premium, dan fitur  canggih"
         }
-        },
+        ],
 
     // ------------------------------------------------------------------------
     // 2. SECURITY & ENDPOINT SETTINGS
@@ -48,7 +48,7 @@ const BOT_CONFIG = {
     // PROXY_URL forces the app to route requests through your Netlify backend
     authMode: "PROXY_URL", 
     // Replace this with your actual Netlify function URL once deployed
-    proxyEndpoint: "https://aigadgetin.netlify.app/", 
+    proxyEndpoint: "https://app.netlify.com/projects/aigadgetin/overview", 
     modelName: "gemini-3.5-flash-lite",
 
     // ------------------------------------------------------------------------
