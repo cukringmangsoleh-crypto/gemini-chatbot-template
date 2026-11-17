@@ -8,39 +8,39 @@ const BOT_CONFIG = {
     // ------------------------------------------------------------------------
     // 1. BRANDING & UI SETTINGS
     // ------------------------------------------------------------------------
-    botName: "AI GADGETIN",
+    botName: "Nexus AI Assistant",
     botSubtitle: "Powered by Google Gemini • Custom Knowledge Base",
     botAvatar: "🤖",
-    userAvatar: "🙂",
+    userAvatar: "🧑‍💻",
     welcomeHeading: "Hello! How can I help you today?",
     welcomeSubtext: "Select a starter prompt below or type your own question to begin.",
 
     introCards: [
         {
-            icon: "🎮",
-            title: "gaming",
-            description: "Handphone dengan spesifikasi untuk bermain game.",
-            prompt: "berikan rekomendasi handphone untuk bermain game dengan mengutamakan chipset dan ram terbaik sesuai budget."
+            icon: "📚",
+            title: "Explain a Concept",
+            description: "Break down complex topics into simple, everyday terms.",
+            prompt: "Can you explain how artificial intelligence works in simple terms?"
         },
         {
-            icon: "📷",
-            title: "All rounder",
-            description: "Handphone serbaguna untuk kebutuhan sehari-hari.",
-            prompt: "rekomedasikan handphone all rounder terbaik sesuai kebutuhan dan budget."
+            icon: "⚡",
+            title: "Check Knowledge Base",
+            description: "Ask questions about our custom internal documents.",
+            prompt: "What information do you have in your official knowledge base?"
         },
         {
-            icon: "📷",
-            title: "Kamera",
-            description: "handphone dengan kamera berkualitas untuk foto dan video.",
-            prompt: "saya mencacri ponsel dengan kamera terbaik untuk foto dan video berkualitas."
+            icon: "💡",
+            title: "Brainstorm Ideas",
+            description: "Generate creative project ideas and structured outlines.",
+            prompt: "Give me 3 creative science fair project ideas involving robotics."
         },
         {
-            icon: "🤤",
-            title: "flagship",
-            description: "ponsel kelas premium dengan performa dan fitur unggulan",
-            prompt: "saya mencari ponsel flagship dengan performa terbaik, kamera premium, dan fitur  canggih"
+            icon: "🛠️",
+            title: "Debug & Troubleshoot",
+            description: "Step-by-step assistance for solving technical problems.",
+            prompt: "How should I approach debugging a program that isn't working as expected?"
         }
-        ],
+    ],
 
     // ------------------------------------------------------------------------
     // 2. SECURITY & ENDPOINT SETTINGS
@@ -48,14 +48,14 @@ const BOT_CONFIG = {
     // PROXY_URL forces the app to route requests through your Netlify backend
     authMode: "PROXY_URL", 
     // Replace this with your actual Netlify function URL once deployed
-    proxyEndpoint: "https://aigadgetin.netlify.app/", 
+    proxyEndpoint: "https://aigadgetin.netlify.app/.netlify/functions/gemini-proxy", 
     modelName: "gemini-3.5-flash-lite",
 
     // ------------------------------------------------------------------------
     // 3. ADVANCED GENERATION PARAMETERS
     // ------------------------------------------------------------------------
     generationConfig: {
-        temperature: 0.3,
+        temperature: 0.7,
         topP: 0.95,
         topK: 40,
         maxOutputTokens: 1024,
@@ -75,10 +75,12 @@ const BOT_CONFIG = {
     // ------------------------------------------------------------------------
     // 5. SYSTEM PROMPT & GUARDRAILS
     // ------------------------------------------------------------------------
-    systemPrompt: `Kamu adalah SmartPhone Assistant, chatbot yang bertugas memberikan informasi lengkap mengenai spesifikasi handphone.
-    Tanyakan merek, model, atau kebutuhan pengguna. Jelaskan spesifikasi seperti chipset, RAM, penyimpanan, kamera, baterai, layar, dan harga.
-     Gunakan bahasa Indonesia yang sederhana, singkat, jelas, dan mudah dipahami.
-     Berikan informasi secara akurat dan jangan mengarang spesifikasi..`,
+    systemPrompt: `You are Nexus, a helpful, accurate, and friendly AI assistant created for a school project.
+Follow these core rules at all times:
+1. Tone & Style: Be clear, encouraging, concise, and structured. Use bullet points or bold text for readability.
+2. Grounded Answers: When "[REFERENCE DOCUMENTS]" are provided with the user's message, prioritize those facts above all else.
+3. Honesty: If you do not know the answer, state clearly what you know and do not fabricate facts.
+4. Safety: Refuse to generate harmful, inappropriate, or academic-dishonesty content.`,
 
     ragInjectionTemplate: `Use the following [REFERENCE DOCUMENTS] to answer the user's question accurately. If the documents are not relevant to the question, rely on your general knowledge without mentioning the documents explicitly.`
 };
