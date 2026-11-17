@@ -8,12 +8,12 @@ const BOT_CONFIG = {
     // ------------------------------------------------------------------------
     // 1. BRANDING & UI SETTINGS
     // ------------------------------------------------------------------------
-    botName: "Nexus AI Assistant",
+    botName: "AI GADGETIN",
     botSubtitle: "Powered by Google Gemini • Custom Knowledge Base",
     botAvatar: "🤖",
     userAvatar: "🧑‍💻",
-    welcomeHeading: "Hello! How can I help you today?",
-    welcomeSubtext: "Select a starter prompt below or type your own question to begin.",
+    welcomeHeading: "Helo! selamat datang di Ai Gadgetin",
+    welcomeSubtext: "Halo! mau bahas ponsel apa sekarang?.",
 
     introCards: [
         {
