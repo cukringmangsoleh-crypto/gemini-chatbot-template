@@ -19,26 +19,26 @@ const BOT_CONFIG = {
         {
             icon: "📚",
             title: "All Rounder",
-            description: "Break down complex topics into simple, everyday terms.",
-            prompt: "Can you explain how artificial intelligence works in simple terms?"
+            description: "Ponsel serba guna untuk kehidupan sehari-hari.",
+            prompt: "rekomendasi ponsel all rounder terbaik sesuai kebutuhan dan budget"
         },
         {
             icon: "⚡",
             title: "Gaming",
-            description: "Ask questions about our custom internal documents.",
-            prompt: "What information do you have in your official knowledge base?"
+            description: "ponsel dengan spesifikasi untuk bermain game",
+            prompt: "berikan rekomendasi ponsel dengan mengutamakan chipset dsn ram terbaik sesuai budget"
         },
         {
             icon: "💡",
             title: "Camera",
-            description: "Generate creative project ideas and structured outlines.",
-            prompt: "Give me 3 creative science fair project ideas involving robotics."
+            description: "ponsel dengan kamera berkualitas untuk foto dan video.",
+            prompt: "rekomendasikan ponsel untuk foto dan video yang berkualitas sesuai budget."
         },
         {
             icon: "🛠️",
             title: "Flagship",
-            description: "Step-by-step assistance for solving technical problems.",
-            prompt: "How should I approach debugging a program that isn't working as expected?"
+            description: "ponsel kelas premium dengan peforma dan fitur unggulan.",
+            prompt: "saya mencari ponsel flagship deangan peforma terbaik, kamera premium dan fitur canggih"
         }
     ],
 
