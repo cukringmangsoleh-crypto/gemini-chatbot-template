@@ -48,7 +48,7 @@ const BOT_CONFIG = {
     // PROXY_URL forces the app to route requests through your Netlify backend
     authMode: "PROXY_URL", 
     // Replace this with your actual Netlify function URL once deployed
-    proxyEndpoint: "https://app.netlify.com/projects/aigadgetin/overview", 
+    proxyEndpoint: "https://aigadgetin.netlify.app/", 
     modelName: "gemini-3.5-flash-lite",
 
     // ------------------------------------------------------------------------
