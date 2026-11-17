@@ -13,7 +13,7 @@ const BOT_CONFIG = {
     botAvatar: "🤖",
     userAvatar: "🙂",
     welcomeHeading: "Hello! How can I help you today?",
-    welcomeSubtext: "Select a starter prompt below or type your own question to begin.",
+    welcomeSubtext: "Select a starter prompt below or type your own question to begin."
 
     introCards: [
         {
