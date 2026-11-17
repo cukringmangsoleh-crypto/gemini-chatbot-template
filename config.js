@@ -13,7 +13,7 @@ const BOT_CONFIG = {
     botAvatar: "🤖",
     userAvatar: "🙂",
     welcomeHeading: "Hello! How can I help you today?",
-    welcomeSubtext: "Select a starter prompt below or type your own question to begin."
+    welcomeSubtext: "Select a starter prompt below or type your own question to begin.",
 
     introCards: [
         {
@@ -23,7 +23,7 @@ const BOT_CONFIG = {
             prompt: "berikan rekomendasi handphone untuk bermain game dengan mengutamakan chipset dan ram terbaik sesuai budget."
         },
         {
-            icon: "",
+            icon: "📷",
             title: "All rounder",
             description: "Handphone serbaguna untuk kebutuhan sehari-hari.",
             prompt: "rekomedasikan handphone all rounder terbaik sesuai kebutuhan dan budget."
