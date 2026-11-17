@@ -40,7 +40,7 @@ const BOT_CONFIG = {
             description: "ponsel kelas premium dengan performa dan fitur unggulan",
             prompt: "saya mencari ponsel flagship dengan performa terbaik, kamera premium, dan fitur  canggih"
         }
-    ],
+    ]
 
     // ------------------------------------------------------------------------
     // 2. SECURITY & ENDPOINT SETTINGS
