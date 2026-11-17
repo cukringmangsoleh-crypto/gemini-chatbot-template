@@ -26,9 +26,7 @@ const BOT_CONFIG = {
             icon: "⚡",
             title: "Gaming",
             description: "ponsel dengan spesifikasi untuk bermain game",
-            prompt: "berikan rekomendasi ponsel dengan mengutamakan chipset dsn ram terbaik sesuai budget"
-        },
-        {
+            prompt: "berikan rekomendasi ponsel dengan mengutamakan chipset dsn ram terbaik sesuai budget"aQ
             icon: "💡",
             title: "Camera",
             description: "ponsel dengan kamera berkualitas untuk foto dan video.",
