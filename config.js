@@ -12,8 +12,8 @@ const BOT_CONFIG = {
     botSubtitle: "Powered by Google Gemini • Custom Knowledge Base",
     botAvatar: "🤖",
     userAvatar: "🧑‍💻",
-    welcomeHeading: "Helo! selamat datang di Ai Gadgetin",
-    welcomeSubtext: "Halo! mau bahas ponsel apa sekarang?.",
+    welcomeHeading: "Halo! selamat datang di Ai Gadgetin",
+    welcomeSubtext: "Mau bahas ponsel apa hari ini?.",
 
     introCards: [
         {
