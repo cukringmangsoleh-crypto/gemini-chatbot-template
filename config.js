@@ -18,25 +18,25 @@ const BOT_CONFIG = {
     introCards: [
         {
             icon: "📚",
-            title: "Explain a Concept",
+            title: "All Rounder",
             description: "Break down complex topics into simple, everyday terms.",
             prompt: "Can you explain how artificial intelligence works in simple terms?"
         },
         {
             icon: "⚡",
-            title: "Check Knowledge Base",
+            title: "Gaming",
             description: "Ask questions about our custom internal documents.",
             prompt: "What information do you have in your official knowledge base?"
         },
         {
             icon: "💡",
-            title: "Brainstorm Ideas",
+            title: "Camera",
             description: "Generate creative project ideas and structured outlines.",
             prompt: "Give me 3 creative science fair project ideas involving robotics."
         },
         {
             icon: "🛠️",
-            title: "Debug & Troubleshoot",
+            title: "Flagship",
             description: "Step-by-step assistance for solving technical problems.",
             prompt: "How should I approach debugging a program that isn't working as expected?"
         }
