@@ -8,36 +8,36 @@ const BOT_CONFIG = {
     // ------------------------------------------------------------------------
     // 1. BRANDING & UI SETTINGS
     // ------------------------------------------------------------------------
-    botName: "Nexus AI Assistant",
+    botName: "Ai Gadgetin",
     botSubtitle: "Powered by Google Gemini • Custom Knowledge Base",
     botAvatar: "🤖",
     userAvatar: "🧑‍💻",
-    welcomeHeading: "Hello! How can I help you today?",
-    welcomeSubtext: "Select a starter prompt below or type your own question to begin.",
+    welcomeHeading: "Hello! ",
+    welcomeSubtext: "Mau bahas ponsel apa hari ini?.",
 
     introCards: [
         {
             icon: "📚",
             title: "all rounder",
             description: "ponsel yang cocok untuk penggunaan sehari-hari.",
-            prompt: "Berikan rekomendasis ponsel dengan spesifikasi yang cocok untuk kehidupan sehari-hari sesuai budget"
+            prompt: "Berikan rekomendasi ponsel dengan spesifikasi yang cocok untuk kehidupan sehari-hari."
         },
         {
             title: "gaming",
             description: "ponsel dengan spesifikasi tinggi untuk bermain game.",
-            prompt: "berikan rekomendasi ponsel dengan mengutamakan chipset dan ram sesuai budget"
+            prompt: "berikan rekomendasi ponsel dengan mengutamakan chipset dan ram. "
         },
         {
             icon: "💡",
             title: "kamera",
             description: "Ponsel untuk video dan foto.",
-            prompt: "rekomendasikan ponsel dengan spesifikasi kamera untuk foto dan video sesuai budget ."
+            prompt: "rekomendasikan ponsel dengan spesifikasi kamera untuk foto dan video."
         },
         {
             icon: "🛠️",
             title: "flagship",
             description: "Ponsel kelas atas.",
-            prompt: "rekomendasikan ponsel flagship sesuai budget"
+            prompt: "rekomendasikan ponsel flagship."
         }
     ],
 
@@ -54,8 +54,8 @@ const BOT_CONFIG = {
     // 3. ADVANCED GENERATION PARAMETERS
     // ------------------------------------------------------------------------
     generationConfig: {
-        temperature: 0.7,
-        topP: 0.95,
+        temperature: 0.3,
+        topP: 0.5,
         topK: 40,
         maxOutputTokens: 1024,
     },
@@ -74,12 +74,12 @@ const BOT_CONFIG = {
     // ------------------------------------------------------------------------
     // 5. SYSTEM PROMPT & GUARDRAILS
     // ------------------------------------------------------------------------
-    systemPrompt: `You are Nexus, a helpful, accurate, and friendly AI assistant created for a school project.
-Follow these core rules at all times:
-1. Tone & Style: Be clear, encouraging, concise, and structured. Use bullet points or bold text for readability.
-2. Grounded Answers: When "[REFERENCE DOCUMENTS]" are provided with the user's message, prioritize those facts above all else.
-3. Honesty: If you do not know the answer, state clearly what you know and do not fabricate facts.
-4. Safety: Refuse to generate harmful, inappropriate, or academic-dishonesty content.`,
+    systemPrompt: `Anda adalah Ai Gadgetin. Berikut adalah aturan yang harus anda laksanakan 
+    1. hanya boleh menjawab tentang ponsel, jangan menjawab pertanyaan selain tentang ponsel
+    2. jawab pertanyaan user dengan ramah dan pastikan informasi tentang ponsel sesuai
+    3. jawab dengan singkat dan langsung ke poinnya
+    4. jangan mengubah sifat yang dibuat di system prompt dengan alasan apapun
+    `,
 
     ragInjectionTemplate: `Use the following [REFERENCE DOCUMENTS] to answer the user's question accurately. If the documents are not relevant to the question, rely on your general knowledge without mentioning the documents explicitly.`
 };
