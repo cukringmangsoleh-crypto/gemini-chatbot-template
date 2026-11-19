@@ -18,27 +18,26 @@ const BOT_CONFIG = {
     introCards: [
         {
             icon: "📚",
-            title: "ponsel gaming",
-            description: "Break down complex topics into simple, everyday terms.",
-            prompt: "Can you explain how artificial intelligence works in simple terms?"
+            title: "all rounder",
+            description: "ponsel yang cocok untuk penggunaan sehari-hari.",
+            prompt: "Berikan rekomendasis ponsel dengan spesifikasi yang cocok untuk kehidupan sehari-hari sesuai budget"
         },
         {
-            icon: "⚡",
-            title: "Check Knowledge Base",
-            description: "Ask questions about our custom internal documents.",
-            prompt: "What information do you have in your official knowledge base?"
+            title: "gaming",
+            description: "ponsel dengan spesifikasi tinggi untuk bermain game.",
+            prompt: "berikan rekomendasi ponsel dengan mengutamakan chipset dan ram sesuai budget"
         },
         {
             icon: "💡",
-            title: "Brainstorm Ideas",
-            description: "Generate creative project ideas and structured outlines.",
-            prompt: "Give me 3 creative science fair project ideas involving robotics."
+            title: "kamera",
+            description: "Ponsel untuk video dan foto.",
+            prompt: "rekomendasikan ponsel dengan spesifikasi kamera untuk foto dan video sesuai budget ."
         },
         {
             icon: "🛠️",
-            title: "Debug & Troubleshoot",
-            description: "Step-by-step assistance for solving technical problems.",
-            prompt: "How should I approach debugging a program that isn't working as expected?"
+            title: "flagship",
+            description: "Ponsel kelas atas.",
+            prompt: "rekomendasikan ponsel flagship sesuai budget"
         }
     ],
 
