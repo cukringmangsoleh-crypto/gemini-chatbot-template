@@ -8,35 +8,37 @@ const BOT_CONFIG = {
     // ------------------------------------------------------------------------
     // 1. BRANDING & UI SETTINGS
     // ------------------------------------------------------------------------
-    botName: "AI GADGETIN",
+    botName: "Nexus AI Assistant",
     botSubtitle: "Powered by Google Gemini • Custom Knowledge Base",
     botAvatar: "🤖",
     userAvatar: "🧑‍💻",
-    welcomeHeading: "Halo! selamat datang di Ai Gadgetin",
-    welcomeSubtext: "Mau bahas ponsel apa hari ini?.",
+    welcomeHeading: "Hello! How can I help you today?",
+    welcomeSubtext: "Select a starter prompt below or type your own question to begin.",
 
     introCards: [
         {
             icon: "📚",
-            title: "All Rounder",
-            description: "Ponsel serba guna untuk kehidupan sehari-hari.",
-            prompt: "rekomendasi ponsel all rounder terbaik sesuai kebutuhan dan budget"
+            title: "Explain a Concept",
+            description: "Break down complex topics into simple, everyday terms.",
+            prompt: "Can you explain how artificial intelligence works in simple terms?"
         },
         {
             icon: "⚡",
-            title: "Gaming",
-            description: "ponsel dengan spesifikasi untuk bermain game",
-            prompt: "berikan rekomendasi ponsel dengan mengutamakan chipset dsn ram terbaik sesuai budget"aQ
+            title: "Check Knowledge Base",
+            description: "Ask questions about our custom internal documents.",
+            prompt: "What information do you have in your official knowledge base?"
+        },
+        {
             icon: "💡",
-            title: "Camera",
-            description: "ponsel dengan kamera berkualitas untuk foto dan video.",
-            prompt: "rekomendasikan ponsel untuk foto dan video yang berkualitas sesuai budget."
+            title: "Brainstorm Ideas",
+            description: "Generate creative project ideas and structured outlines.",
+            prompt: "Give me 3 creative science fair project ideas involving robotics."
         },
         {
             icon: "🛠️",
-            title: "Flagship",
-            description: "ponsel kelas premium dengan peforma dan fitur unggulan.",
-            prompt: "saya mencari ponsel flagship deangan peforma terbaik, kamera premium dan fitur canggih"
+            title: "Debug & Troubleshoot",
+            description: "Step-by-step assistance for solving technical problems.",
+            prompt: "How should I approach debugging a program that isn't working as expected?"
         }
     ],
 
@@ -46,7 +48,7 @@ const BOT_CONFIG = {
     // PROXY_URL forces the app to route requests through your Netlify backend
     authMode: "PROXY_URL", 
     // Replace this with your actual Netlify function URL once deployed
-    proxyEndpoint: "https://aigadgetin.netlify.app/", 
+    proxyEndpoint: "https://gcsandbox.netlify.app/.netlify/functions/gemini-proxy", 
     modelName: "gemini-3.5-flash-lite",
 
     // ------------------------------------------------------------------------
