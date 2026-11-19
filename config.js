@@ -18,7 +18,7 @@ const BOT_CONFIG = {
     introCards: [
         {
             icon: "📚",
-            title: "Explain a Concept",
+            title: "ponsel gaming",
             description: "Break down complex topics into simple, everyday terms.",
             prompt: "Can you explain how artificial intelligence works in simple terms?"
         },
