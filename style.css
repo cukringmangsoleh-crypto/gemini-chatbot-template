@@ -1,8 +1,8 @@
 :root[data-theme="dark"] {
     --bg-primary: #FFBF00;
     --bg-secondary: #FFBF00;
-    --bg-surface: #1e293b;
-    --bg-surface-hover: #334155;
+    --bg-surface: #07356E;
+    --bg-surface-hover: #FFBF00;
     --text-primary:#5FA2F5;
     --text-secondary: #FFFFFF;
     --accent-primary: #FF0000;
