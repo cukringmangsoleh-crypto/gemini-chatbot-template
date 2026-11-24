@@ -1,15 +1,15 @@
 :root[data-theme="dark"] {
-    --bg-primary: #FFBF00;
-    --bg-secondary: #FFBF00;
-    --bg-surface: #07356E;
-    --bg-surface-hover: #FFBF00;
+    --bg-primary: #0D123B;
+    --bg-secondary: #0D123B;
+    --bg-surface: #0D123B;
+    --bg-surface-hover: #0D123B;
     --text-primary:#5FA2F5;
     --text-secondary: #FFFFFF;
     --accent-primary: #FF0000;
     --accent-hover: #4f46e5;
     --accent-glow: rgba(99, 102, 241, 0.25);
     --user-bubble: #4f46e5;
-    --user-text: #ffffff;
+    --user-text: #FFFFFF;
     --bot-bubble: #1e293b;
     --border-color: rgba(255, 255, 255, 0.08);
     --shadow-md: 0 8px 30px rgba(0, 0, 0, 0.35);
