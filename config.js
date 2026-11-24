@@ -23,6 +23,7 @@ const BOT_CONFIG = {
             prompt: "Berikan rekomendasi ponsel dengan spesifikasi yang cocok untuk kehidupan sehari-hari."
         },
         {
+            icon: "⚡",
             title: "gaming",
             description: "ponsel dengan spesifikasi tinggi untuk bermain game.",
             prompt: "berikan rekomendasi ponsel dengan mengutamakan chipset dan ram. "
