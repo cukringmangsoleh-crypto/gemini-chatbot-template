@@ -2,11 +2,11 @@
     --bg-primary: #0D123B;
     --bg-secondary: #0D123B;
     --bg-surface: #0D123B;
-    --bg-surface-hover: ##007AA3;
-    --text-primary:#FFFFFF;
+    --bg-surface-hover: #007AA3;
+    --text-primary: #FFFFFF;
     --text-secondary: #FFFFFF;
-    --accent-primary: #FFB3B3;
-    --accent-hover: #FFB3B3;
+    --accent-primary: #007AA3;
+    --accent-hover: #007AA3;
     --accent-glow: rgba(99, 102, 241, 0.25);
     --user-bubble: #246E69;
     --user-text: #FFFFFF;
