@@ -8,9 +8,9 @@
     --accent-primary: #FF0000;
     --accent-hover: #4f46e5;
     --accent-glow: rgba(99, 102, 241, 0.25);
-    --user-bubble: #4f46e5;
+    --user-bubble: #FFFFFF;
     --user-text: #FFFFFF;
-    --bot-bubble: #1e293b;
+    --bot-bubble: #FFFFFF;
     --border-color: rgba(255, 255, 255, 0.08);
     --shadow-md: 0 8px 30px rgba(0, 0, 0, 0.35);
 }
