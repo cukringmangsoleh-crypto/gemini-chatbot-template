@@ -2,15 +2,15 @@
     --bg-primary: #0D123B;
     --bg-secondary: #0D123B;
     --bg-surface: #0D123B;
-    --bg-surface-hover: #FFFFFF;
+    --bg-surface-hover: #FFB3B3;
     --text-primary:#FFFFFF;
     --text-secondary: #FFFFFF;
     --accent-primary: #FF0000;
     --accent-hover: #FFB3B3;
     --accent-glow: rgba(99, 102, 241, 0.25);
-    --user-bubble: #FFFFFF;
+    --user-bubble: #58CCC0;
     --user-text: #FFFFFF;
-    --bot-bubble: #FFFFFF;
+    --bot-bubble: #58CCC0;
     --border-color: rgba(255, 255, 255, 0.08);
     --shadow-md: 0 8px 30px rgba(0, 0, 0, 0.35);
 }
