@@ -27,7 +27,7 @@
     --accent-glow: rgba(79, 70, 229, 0.15);
     --user-bubble: #4f46e5;
     --user-text: #ffffff;
-    --bot-bubble: #5EF7D0;
+    --bot-bubble: #4f46e5;
     --border-color: rgba(15, 23, 42, 0.1);
     --shadow-md: 0 8px 25px rgba(15, 23, 42, 0.06);
 }
